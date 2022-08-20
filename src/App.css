@@ -6,29 +6,28 @@
 
 .head {
   width: 100%;
-  background-color: white;
+  background-color: whitesmoke;
   color: rgb(0,191,255);
   display: flex;
   padding: 2rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
 }
 
 .navigation {
   display: flex;
   padding-right: 5rem;
-}
-
-.navul {
-  border: 1px solid green;
-  width: auto;
-  height: auto;
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-right: 50px;
+  gap: 20px;
+  padding-left: 5rem;
 }
 
-.navul li {
+.link {
+  text-decoration: none;
   list-style: none;
   gap: 2rem;
+  color: rgb(0,191,255);
   padding: 3px;
 }

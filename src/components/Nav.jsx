@@ -6,17 +6,18 @@ import Categories from './Categories';
 function Nav() {
   return (
     <>
-      <header>
+      <header className="head">
         <h1>Bookstore CMS</h1>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/Categories">Categories</Link>
+        <nav className="navigation">
+          <Link to="/" className="link">books</Link>
+          <Link to="/Categories" className="link">Categories</Link>
         </nav>
       </header>
       <Routes>
         <Route path="/" element={<Books />} />
         <Route path="/Categories" element={<Categories />} />
       </Routes>
+
     </>
   );
 }

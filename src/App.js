@@ -1,9 +1,12 @@
+import { BrowserRouter } from 'react-router-dom';
 import Nav from './components/Nav';
 import './App.css';
 
 function App() {
   return (
-    <Nav />
+    <BrowserRouter>
+      <Nav />
+    </BrowserRouter>
   );
 }
 
