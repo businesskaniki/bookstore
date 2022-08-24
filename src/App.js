@@ -1,12 +1,16 @@
 import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import store from './redux/configStore';
 import Nav from './components/Nav';
 import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Nav />
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <Nav />
+      </BrowserRouter>
+    </Provider>
   );
 }
 
