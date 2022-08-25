@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import { addnewBook } from '../redux/books/books';
+import { addBook } from '../redux/books/books';
 
 function Bookinput() {
   const [title, setTitle] = useState('');
@@ -20,8 +20,9 @@ function Bookinput() {
     const id = uuidv4();
     e.preventDefault();
     if (title.trim() && author.trim()) {
+      const book = { id, title, author };
       dispatch(
-        addnewBook(id, title, author),
+        addBook(book),
       );
     } else {
       return;
