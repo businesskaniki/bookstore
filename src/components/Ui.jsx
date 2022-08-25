@@ -1,10 +1,10 @@
 import React from 'react';
 import Bookinput from './Bookinput';
-import Book from './Book';
+import Books from './Books';
 
 const ui = () => (
   <>
-    <Book />
+    <Books />
     <Bookinput />
   </>
 );

@@ -24,17 +24,15 @@ function Bookinput() {
         addnewBook(id, title, author),
       );
     } else {
-      dispatch(
-        addnewBook(id, title, author),
-      );
+      return;
     }
     setTitle('');
     setAuthor('');
   };
   return (
     <form action="#" onSubmit={Submit}>
-      <input type="text" placeholder="book title" onChange={handletitle} />
-      <input type="text" placeholder="auther" onChange={handleauthor} />
+      <input type="text" value={title} placeholder="book title" onChange={handletitle} />
+      <input type="text" value={author} placeholder="auther" onChange={handleauthor} />
       <button type="submit">submit</button>
     </form>
   );

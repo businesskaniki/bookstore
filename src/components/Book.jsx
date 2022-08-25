@@ -6,11 +6,11 @@ function Book({ book, remove }) {
   return (
     <li id={id} key={id}>
       <div className="book">
-        <p>
-          <span>fiction</span>
-          <span>{title}</span>
-          <span>{author}</span>
-        </p>
+        <div>
+          <div>fiction</div>
+          <div>{title}</div>
+          <div>{author}</div>
+        </div>
         <div>
           <button type="button">Comments</button>
           <button type="button" onClick={remove}>Remove</button>
@@ -18,24 +18,25 @@ function Book({ book, remove }) {
         </div>
       </div>
       <div>
-        <p>
-          <span>50%</span>
-          <span>Complete</span>
-        </p>
+        <div>
+          <div>50%</div>
+          <div>Complete</div>
+        </div>
       </div>
       <div>
-        <p>
+        <div>
           <span>Current Chapter</span>
           <span>Chapter</span>
           <button type="button">Update Progress</button>
-        </p>
+        </div>
       </div>
     </li>
   );
 }
 
 Book.propTypes = {
-  book: PropTypes.objectOf,
+  // eslint-disable-next-line react/forbid-prop-types
+  book: PropTypes.object,
   remove: PropTypes.func.isRequired,
 };
 
