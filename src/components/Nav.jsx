@@ -9,12 +9,12 @@ function Nav() {
       <header className="head">
         <h1>Bookstore CMS</h1>
         <nav className="navigation">
-          <Link to="Ui" className="link">books</Link>
+          <Link to="/" className="link">books</Link>
           <Link to="/Categories" className="link">Categories</Link>
         </nav>
       </header>
       <Routes>
-        <Route path="Ui" element={<Ui />} />
+        <Route path="/" element={<Ui />} />
         <Route path="/Categories" element={<Categories />} />
       </Routes>
 

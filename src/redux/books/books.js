@@ -1,12 +1,33 @@
-const addBook = 'bookstore/books/ADD_BOOK';
+/* eslint-disable default-param-last */
+import { v4 as uuidv4 } from 'uuid';
+
+const ADD_BOOK = 'bookstore/books/ADD_BOOK';
 const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
 
-const initialState = [];
+const initialState = [{
+  title: 'Uncle ',
+  author: 'reducer',
+  id: uuidv4(),
+},
+{
+  title: 'Can urt you ',
+  author: 'gangster',
+  id: uuidv4(),
+},
+{
+  title: 'shakkk',
+  author: 'Dante',
+  id: uuidv4(),
+},
+{
+  title: 'cursed',
+  author: 'Ben ten',
+  id: uuidv4(),
+}];
 
-// eslint-disable-next-line default-param-last
 const bookReducer = (state = initialState, action) => {
   switch (action.type) {
-    case addBook:
+    case ADD_BOOK:
       return [
         ...state,
         action.content,
@@ -18,7 +39,7 @@ const bookReducer = (state = initialState, action) => {
 };
 
 export const addnewBook = (id, title, author) => ({
-  type: addBook,
+  type: ADD_BOOK,
   content: {
     id,
     title,
