@@ -17,9 +17,9 @@ function Books() {
     <ul>
       {books.map((book) => (
         <Book
-          id={book[0]}
-          key={book[0]}
-          book={book[1][0]}
+          id={book.item_id}
+          key={book.item_id}
+          book={book}
           remove={onClick}
         />
       ))}
