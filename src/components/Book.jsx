@@ -1,10 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// eslint-disable-next-line react/prop-types
 function Book({ book, remove }) {
-  const { id, title, author } = book;
+  // console.log(book);
+  const { title, author } = book;
   return (
-    <li id={id} key={id}>
+    <li id={book.item_id} key={book.item_id}>
       <div className="book">
         <div>
           <div>fiction</div>
