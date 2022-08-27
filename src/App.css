@@ -3,7 +3,7 @@
 #root {
   padding-bottom: 3rem;
   margin: 0;
-  background-color: wheat;
+  background-color: #fafafa;
 }
 
 .head {
@@ -13,7 +13,7 @@
   align-items: center;
   margin: 0 0 2.375rem;
   padding: 1.438rem 2.188rem 1.688rem 9rem;
-  background-color: #0f2043;
+  background-color: #fff;
 }
 
 .head h1 {
@@ -27,7 +27,7 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: var(--azure);
+  color: #0290ff;
 }
 
 .navigation {
@@ -42,13 +42,14 @@
   position: absolute;
   right: 10%;
   font-size: 30px;
+  color: #0290ff;
 }
 
 .link {
   text-decoration: none;
   list-style: none;
   gap: 2rem;
-  color: #79cede;
+  color: #121212;
   padding: 3px;
 }
 
@@ -61,8 +62,8 @@
   display: flex;
   border-radius: 4px;
   align-items: center;
-  border: solid 1px var(--white);
-  background-color: #0f2043;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
 }
 
 .bookContainer {
@@ -83,7 +84,7 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: white;
+  color: gray;
   text-transform: capitalize;
 }
 
@@ -98,7 +99,7 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.2px;
-  color: white;
+  color: #121212;
 }
 
 .author {
@@ -172,7 +173,7 @@
   padding: 0.438rem 1.188rem 0.5rem 1.375rem;
   border-radius: 3px;
   border: none;
-  background-color: #d5a458;
+  background-color: #0290ff;
   font-family: "Montserrat", sans-serif;
   font-size: 0.813rem;
   font-stretch: normal;
@@ -195,7 +196,7 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: white;
+  color: #121212;
 }
 
 .completediv {
@@ -215,7 +216,7 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: white;
+  color: #121212;
 }
 
 .text {
@@ -303,14 +304,14 @@
   border-radius: 50%;
   top: 5.5px;
   left: 5.5px;
-  background-color: #0f2043;
+  background-color: #fff;
 }
 
 .progress {
   position: absolute;
   width: 30px;
   height: 30px;
-  background-color: #0f2043;
+  background-color: #fff;
 }
 
 .catdiv {
