@@ -13,7 +13,7 @@
   height: 5.938rem;
   align-items: center;
   margin: 0 0 2.375rem;
-  padding: 1.438rem 2.188rem 1.688rem 9rem;
+  padding: 1.438rem 2.188rem 1.688rem 5rem;
   background-color: #fff;
 }
 
@@ -59,7 +59,7 @@
   height: 10.625rem;
   margin: 2.313rem 6.25rem 0;
   justify-content: space-between;
-  padding: 2rem 9.188rem 1.625rem 1.688rem;
+  padding: 2rem 5.188rem 1.625rem 1.688rem;
   display: flex;
   border-radius: 4px;
   align-items: center;
