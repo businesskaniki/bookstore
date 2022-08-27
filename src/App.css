@@ -312,3 +312,29 @@
   height: 30px;
   background-color: #0f2043;
 }
+
+.catdiv {
+  height:70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.catdiv p {
+    width: 11.5rem;
+    height: 2.063rem;
+    margin: 0.75rem 0 0.563rem 3.688rem;
+    padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+    border-radius: 3px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.813rem;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #0f2043;
+}
