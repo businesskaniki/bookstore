@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Routes, Link } from 'react-router-dom';
+import { IoIosPerson } from 'react-icons/io';
 import Categories from './Categories';
 import Ui from './Ui';
 
@@ -12,6 +13,7 @@ function Nav() {
           <Link to="/" className="link">books</Link>
           <Link to="/Categories" className="link">Categories</Link>
         </nav>
+        <IoIosPerson className="icon" />
       </header>
       <Routes>
         <Route path="/" element={<Ui />} />
