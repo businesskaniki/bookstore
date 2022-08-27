@@ -3,7 +3,6 @@
 #root {
   padding-bottom: 3rem;
   margin: 0;
-
   background-color: wheat;
 }
 
@@ -77,7 +76,7 @@
   height: 1.125rem;
   margin: 0 2.438rem 0 0;
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   font-weight: bold;
   font-stretch: normal;
@@ -92,7 +91,7 @@
   height: 1.813rem;
   text-transform: capitalize;
   margin: 0.188rem 20.188rem 0 0;
-  font-family: RobotoSlab;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.375rem;
   font-weight: bold;
   font-stretch: normal;
@@ -120,7 +119,7 @@
   cursor: pointer;
   height: 1.188rem;
   margin: 0.188rem 0.938rem 0.125rem 0;
-  font-family: RobotoSlab;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -142,7 +141,7 @@
   height: 1.125rem;
   margin: 0.063rem 3.625rem 0 3.688rem;
   opacity: 0.5;
-  font-family: RobotoSlab;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;
@@ -156,7 +155,7 @@
   width: 5.625rem;
   height: 1.313rem;
   margin: 0.438rem 5.875rem 0.25rem 3.688rem;
-  font-family: RobotoSlab;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 300;
   font-stretch: normal;
@@ -174,7 +173,7 @@
   border-radius: 3px;
   border: none;
   background-color: #d5a458;
-  font-family: RobotoSlab;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.813rem;
   font-stretch: normal;
   font-style: normal;
@@ -189,7 +188,7 @@
   height: 1.125rem;
   margin: 0.438rem 4.938rem 0.75rem 0.75rem;
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   font-stretch: normal;
@@ -209,7 +208,7 @@
   width: 2.938rem;
   height: 2.438rem;
   margin: 0.063rem 7.063rem 0 0.688rem;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-weight: normal;
   font-stretch: normal;
@@ -229,7 +228,7 @@
   width: 10.875rem;
   height: 1.5rem;
   margin: 1.813rem 32.75rem 1.188rem 0;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
   font-stretch: normal;
@@ -277,7 +276,7 @@
   border-radius: 3px;
   border: none;
   background-color: #0290ff;
-  font-family: RobotoSlab;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.813rem;
   font-weight: bold;
   font-stretch: normal;
