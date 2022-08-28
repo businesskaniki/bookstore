@@ -13,7 +13,7 @@ function Categories() {
   return (
     <div className="catdiv">
       <p>{categories}</p>
-      <button type="button" onClick={onClick}>Check Status</button>
+      <button type="button" onClick={onClick} className="update">Check Status</button>
     </div>
   );
 }
